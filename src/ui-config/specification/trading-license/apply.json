@@ -1,0 +1,21 @@
+{
+    "applyTradeName": {
+        "Type": "Textfield",
+        "props": {
+            "label": "Trade name",
+            "required": "true"
+        }
+    },
+    "applyTradeType": {
+        "Type": "select",
+        "props": {
+            "label": "Trade type",
+            "option": [
+                {
+                    "name": "goods",
+                    "code": "goods"
+                }
+            ]
+        }
+    }
+}
